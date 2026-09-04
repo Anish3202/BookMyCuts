@@ -9,7 +9,7 @@ export default function BarbersPage() {
   const inView = useInView(ref, { once: true });
 
   return (
-    <div className="min-h-screen bg-[#080808] pt-28 pb-20">
+    <div className="min-h-screen bg-[#080808] pt-36 md:pt-40 pb-24">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <motion.div
           ref={ref}

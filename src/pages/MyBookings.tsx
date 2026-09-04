@@ -45,7 +45,7 @@ export default function MyBookings() {
   );
 
   return (
-    <div className="min-h-screen bg-[#080808] pt-28 pb-20">
+    <div className="min-h-screen bg-[#080808] pt-36 md:pt-40 pb-24">
       <div className="max-w-3xl mx-auto px-6 lg:px-12">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-8 h-[1px] bg-white/30" />

@@ -45,7 +45,7 @@ export default function BookingPage() {
 
   if (confirmed) {
     return (
-      <div className="min-h-screen bg-[#080808] pt-28 pb-20 flex items-center justify-center">
+      <div className="min-h-screen bg-[#080808] pt-36 md:pt-40 pb-24 flex items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -85,7 +85,7 @@ export default function BookingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#080808] pt-28 pb-20">
+    <div className="min-h-screen bg-[#080808] pt-36 md:pt-40 pb-24">
       <div className="max-w-4xl mx-auto px-6 lg:px-12">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <div className="flex items-center gap-3 mb-4">
